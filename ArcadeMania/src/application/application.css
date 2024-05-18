@@ -1,0 +1,61 @@
+#pane {
+	-fx-background-image: url("images/landingpage.jpg");
+    -fx-background-size: 900 650;
+}
+
+#paneLogin
+{
+	-fx-background-image: url("images/login.jpg");
+    -fx-background-size: 900 650;
+}
+
+#gamePane{
+	-fx-background-image: url("images/background.gif");
+    -fx-background-size: 900 650;
+}
+
+#abilityBtn1{
+	-fx-font-weight: 700;
+	-fx-background-radius: 30px;
+	-fx-font-size: 20px;
+}
+#abilityBtn2{
+	-fx-font-weight: 700;
+	-fx-background-radius: 30px;
+	-fx-font-size: 20px;
+}
+#swapBtn{
+	-fx-font-weight: 700;
+	-fx-background-radius: 30px;
+	-fx-font-size: 20px;
+}
+#cancelSwapBtn{
+	-fx-font-weight: 700;
+	-fx-background-radius: 30px;
+	-fx-font-size: 20px;
+	
+}
+#Avenger1Btn{
+	-fx-font-weight: 700;
+	-fx-background-radius: 30px;
+	-fx-font-size: 20px;
+}
+#Avenger2Btn{
+	-fx-font-weight: 700;
+	-fx-background-radius: 30px;
+	-fx-font-size: 20px;
+}
+
+#endPane{
+	-fx-background-image: url("images/end1.gif");
+    -fx-background-size: 900 650;
+}
+
+#textPane{
+	-fx-background-color:  F5EFD7;
+	-fx-opacity: 0.5;
+	-fx-background-radius: 20;
+}
+#Winner{
+	-fx-font-size: 47px;
+}

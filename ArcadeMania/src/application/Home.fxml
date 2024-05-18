@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.shape.Circle?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane id="pane" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="650.0" prefWidth="900.0" stylesheets="@application.css" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.HomeController">
+   <children>
+      <Button fx:id="startGameButton" layoutX="388.0" layoutY="574.0" mnemonicParsing="false" onAction="#switchToGameScreen" prefHeight="41.0" prefWidth="124.0" text="START GAME">
+         <font>
+            <Font size="15.0" />
+         </font>
+      </Button>
+      <ImageView fx:id="ninja" fitHeight="200.0" fitWidth="250.0" layoutX="339.0" layoutY="-312.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@images/ninja.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="ninjaShuriken" fitHeight="0.31" fitWidth="0.26" layoutX="458.0" layoutY="445.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@images/ninja_shuriken.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="Akuma" fitHeight="320.0" fitWidth="216.0" layoutX="611.0" layoutY="-320.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@images/akuma.png" />
+         </image>
+      </ImageView>
+      <Circle fx:id="AkumaLight" fill="WHITE" layoutX="629.0" layoutY="245.0" opacity="0.75" radius="0.1" stroke="WHITE" strokeType="INSIDE" />
+      <ImageView fx:id="kasumi" fitHeight="436.0" fitWidth="323.0" layoutX="-323.0" layoutY="232.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@images/kasumi.png" />
+         </image>
+      </ImageView>
+   </children>
+</AnchorPane>
